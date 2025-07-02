@@ -1,0 +1,723 @@
+2025-07-02 10:11:03,833 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.88.254:5000
+2025-07-02 10:11:03,834 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-02 10:11:03,837 - INFO -  * Restarting with stat
+2025-07-02 10:11:04,438 - WARNING -  * Debugger is active!
+2025-07-02 10:11:04,443 - INFO -  * Debugger PIN: 388-404-776
+2025-07-02 10:11:11,327 - INFO - 127.0.0.1 - - [02/Jul/2025 10:11:11] "GET / HTTP/1.1" 200 -
+2025-07-02 10:11:11,583 - INFO - 127.0.0.1 - - [02/Jul/2025 10:11:11] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 10:11:11,858 - INFO - 127.0.0.1 - - [02/Jul/2025 10:11:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-02 10:11:14,397 - ERROR - Chunked upload error: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-07-02 10:11:14,398 - INFO - 127.0.0.1 - - [02/Jul/2025 10:11:14] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:11:39,113 - INFO - Upload request received
+2025-07-02 10:11:39,114 - ERROR - Upload error: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-07-02 10:11:39,114 - INFO - 127.0.0.1 - - [02/Jul/2025 10:11:39] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-07-02 10:11:48,077 - INFO - Upload request received
+2025-07-02 10:11:48,078 - ERROR - Upload error: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-07-02 10:11:48,078 - INFO - 127.0.0.1 - - [02/Jul/2025 10:11:48] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-07-02 10:11:55,550 - INFO - Upload request received
+2025-07-02 10:11:55,575 - INFO - 127.0.0.1 - - [02/Jul/2025 10:11:55] "POST /upload HTTP/1.1" 200 -
+2025-07-02 10:12:00,817 - INFO - 127.0.0.1 - - [02/Jul/2025 10:12:00] "GET / HTTP/1.1" 200 -
+2025-07-02 10:12:01,080 - INFO - 127.0.0.1 - - [02/Jul/2025 10:12:01] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 10:12:03,810 - INFO - Running scheduled cache cleanup...
+2025-07-02 10:12:03,811 - INFO - Scheduled cleanup completed: 0 files deleted
+2025-07-02 10:12:04,419 - INFO - Running scheduled cache cleanup...
+2025-07-02 10:12:04,419 - INFO - Scheduled cleanup completed: 0 files deleted
+2025-07-02 10:12:10,638 - INFO - 127.0.0.1 - - [02/Jul/2025 10:12:10] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:12:10,889 - INFO - 127.0.0.1 - - [02/Jul/2025 10:12:10] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:12:43,094 - INFO - 127.0.0.1 - - [02/Jul/2025 10:12:43] "GET /admin/login HTTP/1.1" 200 -
+2025-07-02 10:12:46,630 - INFO - 127.0.0.1 - - [02/Jul/2025 10:12:46] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-07-02 10:12:46,956 - INFO - 127.0.0.1 - - [02/Jul/2025 10:12:46] "GET /admin HTTP/1.1" 200 -
+2025-07-02 10:12:47,205 - INFO - 127.0.0.1 - - [02/Jul/2025 10:12:47] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 10:12:47,355 - INFO - 127.0.0.1 - - [02/Jul/2025 10:12:47] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 10:12:48,431 - INFO - 127.0.0.1 - - [02/Jul/2025 10:12:48] "GET /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 10:12:56,779 - INFO - Performance settings updated
+2025-07-02 10:12:56,779 - INFO - 127.0.0.1 - - [02/Jul/2025 10:12:56] "POST /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 10:12:59,437 - INFO - 127.0.0.1 - - [02/Jul/2025 10:12:59] "GET / HTTP/1.1" 200 -
+2025-07-02 10:12:59,693 - INFO - 127.0.0.1 - - [02/Jul/2025 10:12:59] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 10:13:22,257 - INFO - Upload request received
+2025-07-02 10:13:22,283 - INFO - 127.0.0.1 - - [02/Jul/2025 10:13:22] "POST /upload HTTP/1.1" 200 -
+2025-07-02 10:14:13,735 - INFO - 127.0.0.1 - - [02/Jul/2025 10:14:13] "GET / HTTP/1.1" 200 -
+2025-07-02 10:14:13,939 - INFO - 127.0.0.1 - - [02/Jul/2025 10:14:13] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 10:14:31,360 - INFO - Upload request received
+2025-07-02 10:14:31,360 - ERROR - Upload error: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-07-02 10:14:31,360 - INFO - 127.0.0.1 - - [02/Jul/2025 10:14:31] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-07-02 10:22:13,792 - INFO -  * Detected change in 'C:\\Users\\Admin\\Documents\\GitHub\\sahre\\server.py', reloading
+2025-07-02 10:22:13,823 - INFO -  * Restarting with stat
+2025-07-02 10:22:14,418 - INFO - Database initialized successfully
+2025-07-02 10:22:14,423 - INFO - Starting File Storage & Sharing Service...
+2025-07-02 10:22:14,424 - INFO - Storage folder: storage\files
+2025-07-02 10:22:14,424 - INFO - Temp folder: storage\files\temp
+2025-07-02 10:22:14,424 - INFO - Max file size: 25GB
+2025-07-02 10:25:12,699 - INFO - Database initialized successfully
+2025-07-02 10:25:12,704 - INFO - Starting File Storage & Sharing Service...
+2025-07-02 10:25:12,704 - INFO - Storage folder: storage\files
+2025-07-02 10:25:12,704 - INFO - Temp folder: storage\files\temp
+2025-07-02 10:25:12,705 - INFO - Max file size: 25GB
+2025-07-02 10:25:12,715 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.88.254:5000
+2025-07-02 10:25:12,715 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-02 10:25:18,085 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:18] "GET / HTTP/1.1" 200 -
+2025-07-02 10:25:18,299 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:18] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 10:25:28,182 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundarysHW1aFKzhEaXxp1o
+2025-07-02 10:25:28,290 - INFO - Processing chunk 1/41 for file: WindowsCustom.gz
+2025-07-02 10:25:28,369 - INFO - Saved chunk 0 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000000
+2025-07-02 10:25:28,369 - INFO - Chunk progress: 1/41 (2.4%)
+2025-07-02 10:25:28,377 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:28] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:28,690 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryUkIYj1g9Tof8rmAo
+2025-07-02 10:25:28,793 - INFO - Processing chunk 2/41 for file: WindowsCustom.gz
+2025-07-02 10:25:28,857 - INFO - Saved chunk 1 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000001
+2025-07-02 10:25:28,857 - INFO - Chunk progress: 2/41 (4.9%)
+2025-07-02 10:25:28,865 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:28] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:28,963 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVnDFrgYPmWrwJqF9
+2025-07-02 10:25:29,065 - INFO - Processing chunk 3/41 for file: WindowsCustom.gz
+2025-07-02 10:25:29,130 - INFO - Saved chunk 2 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000002
+2025-07-02 10:25:29,130 - INFO - Chunk progress: 3/41 (7.3%)
+2025-07-02 10:25:29,139 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:29] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:29,190 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBN0ErHNy6rhJtDWQ
+2025-07-02 10:25:29,306 - INFO - Processing chunk 4/41 for file: WindowsCustom.gz
+2025-07-02 10:25:29,377 - INFO - Saved chunk 3 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000003
+2025-07-02 10:25:29,377 - INFO - Chunk progress: 4/41 (9.8%)
+2025-07-02 10:25:29,386 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:29] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:29,454 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryNaExqBS3BrwAjxxy
+2025-07-02 10:25:29,572 - INFO - Processing chunk 5/41 for file: WindowsCustom.gz
+2025-07-02 10:25:29,637 - INFO - Saved chunk 4 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000004
+2025-07-02 10:25:29,638 - INFO - Chunk progress: 5/41 (12.2%)
+2025-07-02 10:25:29,645 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:29] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:29,715 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryJkuj7inbTioeoO4G
+2025-07-02 10:25:29,818 - INFO - Processing chunk 6/41 for file: WindowsCustom.gz
+2025-07-02 10:25:29,882 - INFO - Saved chunk 5 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000005
+2025-07-02 10:25:29,883 - INFO - Chunk progress: 6/41 (14.6%)
+2025-07-02 10:25:29,891 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:29] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:29,962 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundarySzgJdkMEU71sPwuj
+2025-07-02 10:25:30,065 - INFO - Processing chunk 7/41 for file: WindowsCustom.gz
+2025-07-02 10:25:30,129 - INFO - Saved chunk 6 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000006
+2025-07-02 10:25:30,130 - INFO - Chunk progress: 7/41 (17.1%)
+2025-07-02 10:25:30,138 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:30] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:30,205 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundary07TABXqXR9Qzrcdw
+2025-07-02 10:25:30,308 - INFO - Processing chunk 8/41 for file: WindowsCustom.gz
+2025-07-02 10:25:30,374 - INFO - Saved chunk 7 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000007
+2025-07-02 10:25:30,374 - INFO - Chunk progress: 8/41 (19.5%)
+2025-07-02 10:25:30,382 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:30] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:30,457 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryhXsOX91TUcr1zrMB
+2025-07-02 10:25:30,562 - INFO - Processing chunk 9/41 for file: WindowsCustom.gz
+2025-07-02 10:25:30,629 - INFO - Saved chunk 8 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000008
+2025-07-02 10:25:30,629 - INFO - Chunk progress: 9/41 (22.0%)
+2025-07-02 10:25:30,637 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:30] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:30,741 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryPIuoG4HBh092UeSj
+2025-07-02 10:25:30,844 - INFO - Processing chunk 10/41 for file: WindowsCustom.gz
+2025-07-02 10:25:30,912 - INFO - Saved chunk 9 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000009
+2025-07-02 10:25:30,912 - INFO - Chunk progress: 10/41 (24.4%)
+2025-07-02 10:25:30,921 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:30] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:31,001 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryUJpgxsT9KPMzQ9zl
+2025-07-02 10:25:31,104 - INFO - Processing chunk 11/41 for file: WindowsCustom.gz
+2025-07-02 10:25:31,168 - INFO - Saved chunk 10 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000010
+2025-07-02 10:25:31,169 - INFO - Chunk progress: 11/41 (26.8%)
+2025-07-02 10:25:31,177 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:31] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:31,243 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryz9aLVK6ZvUZDHM5E
+2025-07-02 10:25:31,359 - INFO - Processing chunk 12/41 for file: WindowsCustom.gz
+2025-07-02 10:25:31,424 - INFO - Saved chunk 11 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000011
+2025-07-02 10:25:31,424 - INFO - Chunk progress: 12/41 (29.3%)
+2025-07-02 10:25:31,431 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:31] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:31,497 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundarySF2adjnP9pUuX31j
+2025-07-02 10:25:31,598 - INFO - Processing chunk 13/41 for file: WindowsCustom.gz
+2025-07-02 10:25:31,663 - INFO - Saved chunk 12 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000012
+2025-07-02 10:25:31,663 - INFO - Chunk progress: 13/41 (31.7%)
+2025-07-02 10:25:31,671 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:31] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:31,748 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundarypoZfkcfnEa1Eo9aw
+2025-07-02 10:25:31,851 - INFO - Processing chunk 14/41 for file: WindowsCustom.gz
+2025-07-02 10:25:31,918 - INFO - Saved chunk 13 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000013
+2025-07-02 10:25:31,919 - INFO - Chunk progress: 14/41 (34.1%)
+2025-07-02 10:25:31,926 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:31] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:32,027 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryC8X99I82nwLAjjEy
+2025-07-02 10:25:32,131 - INFO - Processing chunk 15/41 for file: WindowsCustom.gz
+2025-07-02 10:25:32,201 - INFO - Saved chunk 14 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000014
+2025-07-02 10:25:32,201 - INFO - Chunk progress: 15/41 (36.6%)
+2025-07-02 10:25:32,210 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:32] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:32,300 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywfWAYiNpTkFidZId
+2025-07-02 10:25:32,406 - INFO - Processing chunk 16/41 for file: WindowsCustom.gz
+2025-07-02 10:25:32,473 - INFO - Saved chunk 15 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000015
+2025-07-02 10:25:32,473 - INFO - Chunk progress: 16/41 (39.0%)
+2025-07-02 10:25:32,481 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:32] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:32,573 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryRRAcHXt1pytcITBR
+2025-07-02 10:25:32,689 - INFO - Processing chunk 17/41 for file: WindowsCustom.gz
+2025-07-02 10:25:32,762 - INFO - Saved chunk 16 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000016
+2025-07-02 10:25:32,762 - INFO - Chunk progress: 17/41 (41.5%)
+2025-07-02 10:25:32,770 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:32] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:32,854 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundary2IrIhynz8cy6WSi9
+2025-07-02 10:25:32,958 - INFO - Processing chunk 18/41 for file: WindowsCustom.gz
+2025-07-02 10:25:33,022 - INFO - Saved chunk 17 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000017
+2025-07-02 10:25:33,022 - INFO - Chunk progress: 18/41 (43.9%)
+2025-07-02 10:25:33,030 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:33] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:33,088 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryGTAOzA2k8GoMIaDH
+2025-07-02 10:25:33,203 - INFO - Processing chunk 19/41 for file: WindowsCustom.gz
+2025-07-02 10:25:33,280 - INFO - Saved chunk 18 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000018
+2025-07-02 10:25:33,280 - INFO - Chunk progress: 19/41 (46.3%)
+2025-07-02 10:25:33,289 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:33] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:33,403 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryNvEQD4GrNoK56rVs
+2025-07-02 10:25:33,503 - INFO - Processing chunk 20/41 for file: WindowsCustom.gz
+2025-07-02 10:25:33,578 - INFO - Saved chunk 19 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000019
+2025-07-02 10:25:33,578 - INFO - Chunk progress: 20/41 (48.8%)
+2025-07-02 10:25:33,586 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:33] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:33,654 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundarye4PIklxnkJN07fOH
+2025-07-02 10:25:33,758 - INFO - Processing chunk 21/41 for file: WindowsCustom.gz
+2025-07-02 10:25:33,826 - INFO - Saved chunk 20 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000020
+2025-07-02 10:25:33,827 - INFO - Chunk progress: 21/41 (51.2%)
+2025-07-02 10:25:33,834 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:33] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:33,909 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryAYSd6q8VqIaJZHsd
+2025-07-02 10:25:34,049 - INFO - Processing chunk 22/41 for file: WindowsCustom.gz
+2025-07-02 10:25:34,120 - INFO - Saved chunk 21 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000021
+2025-07-02 10:25:34,120 - INFO - Chunk progress: 22/41 (53.7%)
+2025-07-02 10:25:34,129 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:34] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:34,147 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryZkFaDW5X0lXearfN
+2025-07-02 10:25:34,251 - INFO - Processing chunk 23/41 for file: WindowsCustom.gz
+2025-07-02 10:25:34,330 - INFO - Saved chunk 22 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000022
+2025-07-02 10:25:34,330 - INFO - Chunk progress: 23/41 (56.1%)
+2025-07-02 10:25:34,340 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:34] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:34,447 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundary5xCIu4vMK3G5iCsi
+2025-07-02 10:25:34,603 - INFO - Processing chunk 24/41 for file: WindowsCustom.gz
+2025-07-02 10:25:34,667 - INFO - Saved chunk 23 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000023
+2025-07-02 10:25:34,668 - INFO - Chunk progress: 24/41 (58.5%)
+2025-07-02 10:25:34,676 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:34] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:34,724 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryvdftW4ByOH6bkVgS
+2025-07-02 10:25:34,839 - INFO - Processing chunk 25/41 for file: WindowsCustom.gz
+2025-07-02 10:25:34,903 - INFO - Saved chunk 24 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000024
+2025-07-02 10:25:34,904 - INFO - Chunk progress: 25/41 (61.0%)
+2025-07-02 10:25:34,912 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:34] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:35,228 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryZ2KLvZ4mUAZyadCJ
+2025-07-02 10:25:35,329 - INFO - Processing chunk 26/41 for file: WindowsCustom.gz
+2025-07-02 10:25:35,394 - INFO - Saved chunk 25 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000025
+2025-07-02 10:25:35,395 - INFO - Chunk progress: 26/41 (63.4%)
+2025-07-02 10:25:35,402 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:35] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:35,501 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryiy8TGjhgh11OQJB3
+2025-07-02 10:25:35,603 - INFO - Processing chunk 27/41 for file: WindowsCustom.gz
+2025-07-02 10:25:35,668 - INFO - Saved chunk 26 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000026
+2025-07-02 10:25:35,669 - INFO - Chunk progress: 27/41 (65.9%)
+2025-07-02 10:25:35,677 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:35] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:35,728 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryoL8K1G9gHxMPXVYW
+2025-07-02 10:25:35,843 - INFO - Processing chunk 28/41 for file: WindowsCustom.gz
+2025-07-02 10:25:35,917 - INFO - Saved chunk 27 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000027
+2025-07-02 10:25:35,917 - INFO - Chunk progress: 28/41 (68.3%)
+2025-07-02 10:25:35,926 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:35] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:36,024 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryzGXHr4aA9qXbY5MA
+2025-07-02 10:25:36,127 - INFO - Processing chunk 29/41 for file: WindowsCustom.gz
+2025-07-02 10:25:36,195 - INFO - Saved chunk 28 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000028
+2025-07-02 10:25:36,195 - INFO - Chunk progress: 29/41 (70.7%)
+2025-07-02 10:25:36,203 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:36] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:36,290 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryDbqw06blorKLY4JX
+2025-07-02 10:25:36,430 - INFO - Processing chunk 30/41 for file: WindowsCustom.gz
+2025-07-02 10:25:36,501 - INFO - Saved chunk 29 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000029
+2025-07-02 10:25:36,502 - INFO - Chunk progress: 30/41 (73.2%)
+2025-07-02 10:25:36,511 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:36] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:36,518 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryTEsrx9R3OnKGbqFF
+2025-07-02 10:25:36,650 - INFO - Processing chunk 31/41 for file: WindowsCustom.gz
+2025-07-02 10:25:36,717 - INFO - Saved chunk 30 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000030
+2025-07-02 10:25:36,717 - INFO - Chunk progress: 31/41 (75.6%)
+2025-07-02 10:25:36,726 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:36] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:37,046 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundary4zKbKrXe8SnQIBk6
+2025-07-02 10:25:37,145 - INFO - Processing chunk 32/41 for file: WindowsCustom.gz
+2025-07-02 10:25:37,210 - INFO - Saved chunk 31 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000031
+2025-07-02 10:25:37,210 - INFO - Chunk progress: 32/41 (78.0%)
+2025-07-02 10:25:37,217 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:37] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:37,315 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundary1ad4opdPBuiz4AeP
+2025-07-02 10:25:37,433 - INFO - Processing chunk 33/41 for file: WindowsCustom.gz
+2025-07-02 10:25:37,500 - INFO - Saved chunk 32 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000032
+2025-07-02 10:25:37,500 - INFO - Chunk progress: 33/41 (80.5%)
+2025-07-02 10:25:37,508 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:37] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:37,610 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLukSAP6A1K2m1nmB
+2025-07-02 10:25:37,711 - INFO - Processing chunk 34/41 for file: WindowsCustom.gz
+2025-07-02 10:25:37,782 - INFO - Saved chunk 33 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000033
+2025-07-02 10:25:37,782 - INFO - Chunk progress: 34/41 (82.9%)
+2025-07-02 10:25:37,790 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:37] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:37,875 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundary0mMUDPwMy1xlNWmD
+2025-07-02 10:25:37,985 - INFO - Processing chunk 35/41 for file: WindowsCustom.gz
+2025-07-02 10:25:38,053 - INFO - Saved chunk 34 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000034
+2025-07-02 10:25:38,053 - INFO - Chunk progress: 35/41 (85.4%)
+2025-07-02 10:25:38,062 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:38] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:38,107 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryeWnma2yInPjDh9Z9
+2025-07-02 10:25:38,209 - INFO - Processing chunk 36/41 for file: WindowsCustom.gz
+2025-07-02 10:25:38,274 - INFO - Saved chunk 35 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000035
+2025-07-02 10:25:38,274 - INFO - Chunk progress: 36/41 (87.8%)
+2025-07-02 10:25:38,282 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:38] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:38,378 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVvcbFV5zrlScYdBV
+2025-07-02 10:25:38,478 - INFO - Processing chunk 37/41 for file: WindowsCustom.gz
+2025-07-02 10:25:38,545 - INFO - Saved chunk 36 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000036
+2025-07-02 10:25:38,546 - INFO - Chunk progress: 37/41 (90.2%)
+2025-07-02 10:25:38,553 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:38] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:38,607 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundarygpBKt9Cs9ymQTcgu
+2025-07-02 10:25:38,706 - INFO - Processing chunk 38/41 for file: WindowsCustom.gz
+2025-07-02 10:25:38,797 - INFO - Saved chunk 37 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000037
+2025-07-02 10:25:38,797 - INFO - Chunk progress: 38/41 (92.7%)
+2025-07-02 10:25:38,804 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:38] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:38,924 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryX0sCcZMizKLKeWDt
+2025-07-02 10:25:39,026 - INFO - Processing chunk 39/41 for file: WindowsCustom.gz
+2025-07-02 10:25:39,107 - INFO - Saved chunk 38 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000038
+2025-07-02 10:25:39,108 - INFO - Chunk progress: 39/41 (95.1%)
+2025-07-02 10:25:39,116 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:39] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:39,176 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryaB024UOK4ROTzihj
+2025-07-02 10:25:39,279 - INFO - Processing chunk 40/41 for file: WindowsCustom.gz
+2025-07-02 10:25:39,353 - INFO - Saved chunk 39 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000039
+2025-07-02 10:25:39,353 - INFO - Chunk progress: 40/41 (97.6%)
+2025-07-02 10:25:39,361 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:39] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:39,683 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundary8rdzFjArBPqht45P
+2025-07-02 10:25:39,708 - INFO - Processing chunk 41/41 for file: WindowsCustom.gz
+2025-07-02 10:25:39,727 - INFO - Saved chunk 40 to storage\files\temp\c9f30d3c-de70-4415-a090-653c34c608e4\chunk_000040
+2025-07-02 10:25:39,727 - INFO - All chunks received, merging file: WindowsCustom.gz
+2025-07-02 10:25:46,651 - INFO - Chunked upload completed: WindowsCustom.gz (3.9GB)
+2025-07-02 10:25:46,653 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:46] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 10:25:57,775 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:57] "GET / HTTP/1.1" 200 -
+2025-07-02 10:25:58,193 - INFO - 127.0.0.1 - - [02/Jul/2025 10:25:58] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 10:41:32,951 - INFO - Database initialized successfully
+2025-07-02 10:41:32,956 - INFO - Starting File Storage & Sharing Service...
+2025-07-02 10:41:32,957 - INFO - Storage folder: storage\files
+2025-07-02 10:41:32,957 - INFO - Temp folder: storage\files\temp
+2025-07-02 10:41:32,957 - INFO - Max file size: 25GB
+2025-07-02 10:41:32,968 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.88.254:5000
+2025-07-02 10:41:32,968 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-02 10:41:41,380 - INFO - 192.168.88.254 - - [02/Jul/2025 10:41:41] "GET / HTTP/1.1" 200 -
+2025-07-02 10:41:41,626 - INFO - 192.168.88.254 - - [02/Jul/2025 10:41:41] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 10:41:41,862 - INFO - 192.168.88.254 - - [02/Jul/2025 10:41:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 10:41:47,388 - INFO - 192.168.88.254 - - [02/Jul/2025 10:41:47] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-07-02 10:41:47,395 - INFO - 192.168.88.254 - - [02/Jul/2025 10:41:47] "GET /admin/login HTTP/1.1" 200 -
+2025-07-02 10:41:47,926 - INFO - 192.168.88.254 - - [02/Jul/2025 10:41:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 10:41:51,046 - INFO - 192.168.88.254 - - [02/Jul/2025 10:41:51] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-07-02 10:41:51,101 - INFO - 192.168.88.254 - - [02/Jul/2025 10:41:51] "GET /admin HTTP/1.1" 200 -
+2025-07-02 10:41:51,259 - INFO - 192.168.88.254 - - [02/Jul/2025 10:41:51] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 10:41:51,273 - INFO - 192.168.88.254 - - [02/Jul/2025 10:41:51] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 10:41:51,307 - INFO - 192.168.88.254 - - [02/Jul/2025 10:41:51] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 10:41:51,475 - INFO - 192.168.88.254 - - [02/Jul/2025 10:41:51] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 10:41:53,577 - INFO - 192.168.88.254 - - [02/Jul/2025 10:41:53] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 10:41:59,519 - INFO - Admin settings updated
+2025-07-02 10:41:59,519 - INFO - 192.168.88.254 - - [02/Jul/2025 10:41:59] "POST /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 10:42:00,578 - INFO - Admin settings updated
+2025-07-02 10:42:00,579 - INFO - 192.168.88.254 - - [02/Jul/2025 10:42:00] "POST /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 10:42:08,503 - INFO - 192.168.88.254 - - [02/Jul/2025 10:42:08] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 10:42:08,519 - INFO - 192.168.88.254 - - [02/Jul/2025 10:42:08] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 10:42:09,410 - INFO - 192.168.88.254 - - [02/Jul/2025 10:42:09] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 10:42:11,808 - INFO - 192.168.88.254 - - [02/Jul/2025 10:42:11] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 10:42:12,927 - INFO - 192.168.88.254 - - [02/Jul/2025 10:42:12] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 10:42:13,432 - INFO - 192.168.88.254 - - [02/Jul/2025 10:42:13] "GET / HTTP/1.1" 200 -
+2025-07-02 10:42:13,585 - INFO - 192.168.88.254 - - [02/Jul/2025 10:42:13] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 10:42:13,645 - INFO - 192.168.88.254 - - [02/Jul/2025 10:42:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 10:42:15,233 - INFO - 192.168.88.254 - - [02/Jul/2025 10:42:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 10:42:16,244 - INFO - 192.168.88.254 - - [02/Jul/2025 10:42:16] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 10:42:16,894 - INFO - 192.168.88.254 - - [02/Jul/2025 10:42:16] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 10:42:16,901 - INFO - 192.168.88.254 - - [02/Jul/2025 10:42:16] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 10:42:17,602 - INFO - 192.168.88.254 - - [02/Jul/2025 10:42:17] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 10:42:23,789 - INFO - 192.168.88.254 - - [02/Jul/2025 10:42:23] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 10:42:23,796 - INFO - 192.168.88.254 - - [02/Jul/2025 10:42:23] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 10:42:24,936 - INFO - 192.168.88.254 - - [02/Jul/2025 10:42:24] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 10:43:03,112 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:03] "GET /admin HTTP/1.1" 200 -
+2025-07-02 10:43:03,224 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:03] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 10:43:03,241 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:03] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 10:43:03,270 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:03] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 10:43:03,285 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:03] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 10:43:04,306 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:04] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 10:43:11,943 - INFO - Database initialized successfully
+2025-07-02 10:43:11,948 - INFO - Starting File Storage & Sharing Service...
+2025-07-02 10:43:11,949 - INFO - Storage folder: storage\files
+2025-07-02 10:43:11,949 - INFO - Temp folder: storage\files\temp
+2025-07-02 10:43:11,949 - INFO - Max file size: 25GB
+2025-07-02 10:43:11,959 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.88.254:5000
+2025-07-02 10:43:11,959 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-02 10:43:12,722 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:12] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-07-02 10:43:12,737 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:12] "GET /admin/login HTTP/1.1" 200 -
+2025-07-02 10:43:12,889 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:12] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 10:43:16,200 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:16] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-07-02 10:43:16,241 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:16] "GET /admin HTTP/1.1" 200 -
+2025-07-02 10:43:16,354 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:16] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 10:43:16,364 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:16] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 10:43:16,420 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:16] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 10:43:17,049 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:17] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 10:43:17,387 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:17] "GET /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 10:43:19,602 - INFO - Performance settings updated
+2025-07-02 10:43:19,604 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:19] "POST /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 10:43:20,596 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:20] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 10:43:22,580 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:22] "POST /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 10:43:22,586 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:22] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 10:43:23,247 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:23] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 10:43:35,903 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:35] "GET / HTTP/1.1" 200 -
+2025-07-02 10:43:36,130 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:36] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 10:43:36,272 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:36] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 10:43:42,300 - INFO - Regular upload request received
+2025-07-02 10:43:42,328 - INFO - File uploaded successfully: ProxyXoay.rar (2.1MB)
+2025-07-02 10:43:42,329 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:42] "POST /upload HTTP/1.1" 200 -
+2025-07-02 10:43:49,906 - INFO - Regular upload request received
+2025-07-02 10:43:49,915 - INFO - File uploaded successfully: server.py (42.7KB)
+2025-07-02 10:43:49,916 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:49] "POST /upload HTTP/1.1" 200 -
+2025-07-02 10:43:52,736 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:52] "GET / HTTP/1.1" 200 -
+2025-07-02 10:43:52,837 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:52] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 10:43:52,895 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:52] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 10:43:54,062 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:54] "GET /admin HTTP/1.1" 200 -
+2025-07-02 10:43:54,312 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:54] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 10:43:54,323 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:54] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 10:43:54,338 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:54] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 10:43:54,853 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:54] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 10:43:57,244 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:57] "POST /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 10:43:57,252 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:57] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 10:43:57,262 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:57] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 10:43:57,278 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:57] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 10:43:59,680 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:59] "POST /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 10:43:59,685 - INFO - 192.168.88.254 - - [02/Jul/2025 10:43:59] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 10:44:03,566 - INFO - 192.168.88.254 - - [02/Jul/2025 10:44:03] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 10:44:15,155 - INFO - 192.168.88.254 - - [02/Jul/2025 10:44:15] "[33mPOST /admin/upload HTTP/1.1[0m" 404 -
+2025-07-02 10:44:17,100 - INFO - 192.168.88.254 - - [02/Jul/2025 10:44:17] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 10:44:18,433 - INFO - 192.168.88.254 - - [02/Jul/2025 10:44:18] "GET /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 10:44:19,192 - INFO - 192.168.88.254 - - [02/Jul/2025 10:44:19] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 10:44:19,207 - INFO - 192.168.88.254 - - [02/Jul/2025 10:44:19] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 10:44:20,022 - INFO - 192.168.88.254 - - [02/Jul/2025 10:44:20] "GET /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 10:44:20,792 - INFO - 192.168.88.254 - - [02/Jul/2025 10:44:20] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 10:44:20,807 - INFO - 192.168.88.254 - - [02/Jul/2025 10:44:20] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 10:44:21,899 - INFO - 192.168.88.254 - - [02/Jul/2025 10:44:21] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 10:44:23,172 - INFO - 192.168.88.254 - - [02/Jul/2025 10:44:23] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 10:44:24,316 - INFO - 192.168.88.254 - - [02/Jul/2025 10:44:24] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 10:44:25,209 - INFO - 192.168.88.254 - - [02/Jul/2025 10:44:25] "GET /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 10:44:30,997 - INFO - Performance settings updated
+2025-07-02 10:44:30,998 - INFO - 192.168.88.254 - - [02/Jul/2025 10:44:30] "POST /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 10:47:21,733 - INFO - Database initialized successfully
+2025-07-02 10:47:21,739 - INFO - Starting File Storage & Sharing Service...
+2025-07-02 10:47:21,739 - INFO - Storage folder: storage\files
+2025-07-02 10:47:21,739 - INFO - Temp folder: storage\files\temp
+2025-07-02 10:47:21,740 - INFO - Max file size: 25GB
+2025-07-02 10:47:21,751 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.88.254:5000
+2025-07-02 10:47:21,751 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-02 10:48:13,780 - INFO - 192.168.88.254 - - [02/Jul/2025 10:48:13] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-07-02 10:48:13,790 - INFO - 192.168.88.254 - - [02/Jul/2025 10:48:13] "GET /admin/login HTTP/1.1" 200 -
+2025-07-02 10:48:13,929 - INFO - 192.168.88.254 - - [02/Jul/2025 10:48:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 11:09:08,254 - INFO - Database initialized successfully
+2025-07-02 11:09:08,259 - INFO - Starting File Storage & Sharing Service...
+2025-07-02 11:09:08,259 - INFO - Storage folder: storage\files
+2025-07-02 11:09:08,260 - INFO - Banner upload folder: static\uploads\banners
+2025-07-02 11:09:08,260 - INFO - Temp folder: storage\files\temp
+2025-07-02 11:09:08,260 - INFO - Max file size: 25GB
+2025-07-02 11:09:08,270 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.88.254:5000
+2025-07-02 11:09:08,270 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-02 11:09:20,784 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:20] "GET / HTTP/1.1" 200 -
+2025-07-02 11:09:21,001 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:21] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 11:09:21,128 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:21] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 11:09:29,075 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKFzgNfgXxUsFfyv0
+2025-07-02 11:09:29,244 - INFO - Processing chunk 1/41 for file: WindowsCustom.gz
+2025-07-02 11:09:29,301 - INFO - Saved chunk 0 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000000
+2025-07-02 11:09:29,301 - INFO - Chunk progress: 1/41 (2.4%)
+2025-07-02 11:09:29,309 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:29] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:29,320 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundarykCJv5RrbxLYtjzJg
+2025-07-02 11:09:29,425 - INFO - Processing chunk 2/41 for file: WindowsCustom.gz
+2025-07-02 11:09:29,481 - INFO - Saved chunk 1 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000001
+2025-07-02 11:09:29,481 - INFO - Chunk progress: 2/41 (4.9%)
+2025-07-02 11:09:29,488 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:29] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:29,497 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryZRGOugSCuSU9bbjT
+2025-07-02 11:09:29,598 - INFO - Processing chunk 3/41 for file: WindowsCustom.gz
+2025-07-02 11:09:29,655 - INFO - Saved chunk 2 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000002
+2025-07-02 11:09:29,655 - INFO - Chunk progress: 3/41 (7.3%)
+2025-07-02 11:09:29,663 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:29] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:29,670 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryRCy2owlVeh5NEIBL
+2025-07-02 11:09:29,770 - INFO - Processing chunk 4/41 for file: WindowsCustom.gz
+2025-07-02 11:09:29,826 - INFO - Saved chunk 3 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000003
+2025-07-02 11:09:29,827 - INFO - Chunk progress: 4/41 (9.8%)
+2025-07-02 11:09:29,835 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:29] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:29,843 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryTTRddTcbvF38yWA3
+2025-07-02 11:09:29,960 - INFO - Processing chunk 5/41 for file: WindowsCustom.gz
+2025-07-02 11:09:30,016 - INFO - Saved chunk 4 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000004
+2025-07-02 11:09:30,016 - INFO - Chunk progress: 5/41 (12.2%)
+2025-07-02 11:09:30,024 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:30] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:30,032 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryQUBNuumH9BrYf6Ao
+2025-07-02 11:09:30,141 - INFO - Processing chunk 6/41 for file: WindowsCustom.gz
+2025-07-02 11:09:30,204 - INFO - Saved chunk 5 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000005
+2025-07-02 11:09:30,204 - INFO - Chunk progress: 6/41 (14.6%)
+2025-07-02 11:09:30,212 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:30] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:30,219 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryzcjP6gOOMjnQJOpB
+2025-07-02 11:09:30,319 - INFO - Processing chunk 7/41 for file: WindowsCustom.gz
+2025-07-02 11:09:30,375 - INFO - Saved chunk 6 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000006
+2025-07-02 11:09:30,375 - INFO - Chunk progress: 7/41 (17.1%)
+2025-07-02 11:09:30,383 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:30] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:30,391 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywijW41kku77pLN9u
+2025-07-02 11:09:30,502 - INFO - Processing chunk 8/41 for file: WindowsCustom.gz
+2025-07-02 11:09:30,558 - INFO - Saved chunk 7 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000007
+2025-07-02 11:09:30,559 - INFO - Chunk progress: 8/41 (19.5%)
+2025-07-02 11:09:30,566 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:30] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:30,573 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundary5HUaHEOQ9Bf3aqkT
+2025-07-02 11:09:30,682 - INFO - Processing chunk 9/41 for file: WindowsCustom.gz
+2025-07-02 11:09:30,737 - INFO - Saved chunk 8 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000008
+2025-07-02 11:09:30,738 - INFO - Chunk progress: 9/41 (22.0%)
+2025-07-02 11:09:30,745 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:30] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:30,753 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundary4KnhY1GkUc76NhbB
+2025-07-02 11:09:30,866 - INFO - Processing chunk 10/41 for file: WindowsCustom.gz
+2025-07-02 11:09:30,935 - INFO - Saved chunk 9 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000009
+2025-07-02 11:09:30,935 - INFO - Chunk progress: 10/41 (24.4%)
+2025-07-02 11:09:30,942 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:30] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:30,974 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryfpKKoaM52UHgAcqd
+2025-07-02 11:09:31,071 - INFO - Processing chunk 11/41 for file: WindowsCustom.gz
+2025-07-02 11:09:31,137 - INFO - Saved chunk 10 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000010
+2025-07-02 11:09:31,137 - INFO - Chunk progress: 11/41 (26.8%)
+2025-07-02 11:09:31,144 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:31] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:31,201 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryslI9VS7xOVsphHmn
+2025-07-02 11:09:31,300 - INFO - Processing chunk 12/41 for file: WindowsCustom.gz
+2025-07-02 11:09:31,358 - INFO - Saved chunk 11 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000011
+2025-07-02 11:09:31,358 - INFO - Chunk progress: 12/41 (29.3%)
+2025-07-02 11:09:31,366 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:31] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:31,420 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryz7LAOGL1pezNbtFY
+2025-07-02 11:09:31,518 - INFO - Processing chunk 13/41 for file: WindowsCustom.gz
+2025-07-02 11:09:31,576 - INFO - Saved chunk 12 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000012
+2025-07-02 11:09:31,576 - INFO - Chunk progress: 13/41 (31.7%)
+2025-07-02 11:09:31,584 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:31] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:31,641 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundarypn4hOAD27vC9feZV
+2025-07-02 11:09:31,743 - INFO - Processing chunk 14/41 for file: WindowsCustom.gz
+2025-07-02 11:09:31,800 - INFO - Saved chunk 13 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000013
+2025-07-02 11:09:31,800 - INFO - Chunk progress: 14/41 (34.1%)
+2025-07-02 11:09:31,809 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:31] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:31,855 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBrBOvvHIdQgfWUuX
+2025-07-02 11:09:31,952 - INFO - Processing chunk 15/41 for file: WindowsCustom.gz
+2025-07-02 11:09:32,040 - INFO - Saved chunk 14 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000014
+2025-07-02 11:09:32,040 - INFO - Chunk progress: 15/41 (36.6%)
+2025-07-02 11:09:32,049 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:32] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:32,056 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryb2otsSRmsGUTOcz3
+2025-07-02 11:09:32,167 - INFO - Processing chunk 16/41 for file: WindowsCustom.gz
+2025-07-02 11:09:32,224 - INFO - Saved chunk 15 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000015
+2025-07-02 11:09:32,224 - INFO - Chunk progress: 16/41 (39.0%)
+2025-07-02 11:09:32,232 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:32] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:32,239 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundary4tPXdZJBOPiO3zdH
+2025-07-02 11:09:32,358 - INFO - Processing chunk 17/41 for file: WindowsCustom.gz
+2025-07-02 11:09:32,415 - INFO - Saved chunk 16 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000016
+2025-07-02 11:09:32,416 - INFO - Chunk progress: 17/41 (41.5%)
+2025-07-02 11:09:32,423 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:32] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:32,475 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryWcraBFirD1V4p5zU
+2025-07-02 11:09:32,580 - INFO - Processing chunk 18/41 for file: WindowsCustom.gz
+2025-07-02 11:09:32,643 - INFO - Saved chunk 17 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000017
+2025-07-02 11:09:32,644 - INFO - Chunk progress: 18/41 (43.9%)
+2025-07-02 11:09:32,652 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:32] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:32,702 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryPZPlSp9TzmoqVw3p
+2025-07-02 11:09:32,800 - INFO - Processing chunk 19/41 for file: WindowsCustom.gz
+2025-07-02 11:09:32,862 - INFO - Saved chunk 18 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000018
+2025-07-02 11:09:32,862 - INFO - Chunk progress: 19/41 (46.3%)
+2025-07-02 11:09:32,870 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:32] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:32,915 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryS6zbrgJjNoHUfjkD
+2025-07-02 11:09:33,021 - INFO - Processing chunk 20/41 for file: WindowsCustom.gz
+2025-07-02 11:09:33,078 - INFO - Saved chunk 19 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000019
+2025-07-02 11:09:33,078 - INFO - Chunk progress: 20/41 (48.8%)
+2025-07-02 11:09:33,086 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:33] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:33,139 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundarysZWd3RYm1WymL1SQ
+2025-07-02 11:09:33,236 - INFO - Processing chunk 21/41 for file: WindowsCustom.gz
+2025-07-02 11:09:33,294 - INFO - Saved chunk 20 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000020
+2025-07-02 11:09:33,295 - INFO - Chunk progress: 21/41 (51.2%)
+2025-07-02 11:09:33,302 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:33] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:33,309 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryFjDqB6OoTznkTirl
+2025-07-02 11:09:33,413 - INFO - Processing chunk 22/41 for file: WindowsCustom.gz
+2025-07-02 11:09:33,478 - INFO - Saved chunk 21 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000021
+2025-07-02 11:09:33,478 - INFO - Chunk progress: 22/41 (53.7%)
+2025-07-02 11:09:33,485 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:33] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:33,493 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryfrMLOO7dfW3tJ356
+2025-07-02 11:09:33,589 - INFO - Processing chunk 23/41 for file: WindowsCustom.gz
+2025-07-02 11:09:33,649 - INFO - Saved chunk 22 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000022
+2025-07-02 11:09:33,649 - INFO - Chunk progress: 23/41 (56.1%)
+2025-07-02 11:09:33,657 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:33] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:33,664 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundarybs8BCKeClcYI1lzg
+2025-07-02 11:09:33,773 - INFO - Processing chunk 24/41 for file: WindowsCustom.gz
+2025-07-02 11:09:33,841 - INFO - Saved chunk 23 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000023
+2025-07-02 11:09:33,841 - INFO - Chunk progress: 24/41 (58.5%)
+2025-07-02 11:09:33,849 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:33] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:33,913 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MiS6r9oME1QeMwD
+2025-07-02 11:09:34,008 - INFO - Processing chunk 25/41 for file: WindowsCustom.gz
+2025-07-02 11:09:34,068 - INFO - Saved chunk 24 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000024
+2025-07-02 11:09:34,068 - INFO - Chunk progress: 25/41 (61.0%)
+2025-07-02 11:09:34,075 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:34] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:34,131 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryexciYSoysRMAkf1p
+2025-07-02 11:09:34,230 - INFO - Processing chunk 26/41 for file: WindowsCustom.gz
+2025-07-02 11:09:34,287 - INFO - Saved chunk 25 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000025
+2025-07-02 11:09:34,288 - INFO - Chunk progress: 26/41 (63.4%)
+2025-07-02 11:09:34,295 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:34] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:34,337 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryqY0JZ6R8EXHurllp
+2025-07-02 11:09:34,433 - INFO - Processing chunk 27/41 for file: WindowsCustom.gz
+2025-07-02 11:09:34,491 - INFO - Saved chunk 26 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000026
+2025-07-02 11:09:34,491 - INFO - Chunk progress: 27/41 (65.9%)
+2025-07-02 11:09:34,499 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:34] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:34,535 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryqzjiBzILlrcbuyKB
+2025-07-02 11:09:34,634 - INFO - Processing chunk 28/41 for file: WindowsCustom.gz
+2025-07-02 11:09:34,700 - INFO - Saved chunk 27 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000027
+2025-07-02 11:09:34,700 - INFO - Chunk progress: 28/41 (68.3%)
+2025-07-02 11:09:34,708 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:34] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:34,715 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundarylNXe9DPfaHnPV5mu
+2025-07-02 11:09:34,835 - INFO - Processing chunk 29/41 for file: WindowsCustom.gz
+2025-07-02 11:09:34,899 - INFO - Saved chunk 28 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000028
+2025-07-02 11:09:34,900 - INFO - Chunk progress: 29/41 (70.7%)
+2025-07-02 11:09:34,908 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:34] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:34,916 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryjwEASl8zhVO4ucZX
+2025-07-02 11:09:35,035 - INFO - Processing chunk 30/41 for file: WindowsCustom.gz
+2025-07-02 11:09:35,113 - INFO - Saved chunk 29 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000029
+2025-07-02 11:09:35,114 - INFO - Chunk progress: 30/41 (73.2%)
+2025-07-02 11:09:35,121 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:35] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:35,174 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryfLq2wmEdMnkmHYnU
+2025-07-02 11:09:35,289 - INFO - Processing chunk 31/41 for file: WindowsCustom.gz
+2025-07-02 11:09:35,361 - INFO - Saved chunk 30 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000030
+2025-07-02 11:09:35,362 - INFO - Chunk progress: 31/41 (75.6%)
+2025-07-02 11:09:35,369 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:35] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:35,431 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryEHknA0BjOA0lHIzO
+2025-07-02 11:09:35,535 - INFO - Processing chunk 32/41 for file: WindowsCustom.gz
+2025-07-02 11:09:35,603 - INFO - Saved chunk 31 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000031
+2025-07-02 11:09:35,603 - INFO - Chunk progress: 32/41 (78.0%)
+2025-07-02 11:09:35,610 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:35] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:35,642 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundarytUUHB5m772P98D4D
+2025-07-02 11:09:35,737 - INFO - Processing chunk 33/41 for file: WindowsCustom.gz
+2025-07-02 11:09:35,800 - INFO - Saved chunk 32 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000032
+2025-07-02 11:09:35,801 - INFO - Chunk progress: 33/41 (80.5%)
+2025-07-02 11:09:35,807 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:35] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:35,830 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryOFW7wzA50QePCI2w
+2025-07-02 11:09:35,931 - INFO - Processing chunk 34/41 for file: WindowsCustom.gz
+2025-07-02 11:09:35,989 - INFO - Saved chunk 33 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000033
+2025-07-02 11:09:35,989 - INFO - Chunk progress: 34/41 (82.9%)
+2025-07-02 11:09:35,997 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:35] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:36,005 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryzO0SDEHEIytrHwAd
+2025-07-02 11:09:36,102 - INFO - Processing chunk 35/41 for file: WindowsCustom.gz
+2025-07-02 11:09:36,172 - INFO - Saved chunk 34 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000034
+2025-07-02 11:09:36,173 - INFO - Chunk progress: 35/41 (85.4%)
+2025-07-02 11:09:36,180 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:36] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:36,193 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryPtmxViyvMIdT209B
+2025-07-02 11:09:36,299 - INFO - Processing chunk 36/41 for file: WindowsCustom.gz
+2025-07-02 11:09:36,382 - INFO - Saved chunk 35 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000035
+2025-07-02 11:09:36,383 - INFO - Chunk progress: 36/41 (87.8%)
+2025-07-02 11:09:36,391 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:36] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:36,562 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundarykXpYFGvmaXRsJs3o
+2025-07-02 11:09:36,664 - INFO - Processing chunk 37/41 for file: WindowsCustom.gz
+2025-07-02 11:09:36,733 - INFO - Saved chunk 36 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000036
+2025-07-02 11:09:36,733 - INFO - Chunk progress: 37/41 (90.2%)
+2025-07-02 11:09:36,741 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:36] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:36,795 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryP3FS7910ovCt5mUh
+2025-07-02 11:09:36,898 - INFO - Processing chunk 38/41 for file: WindowsCustom.gz
+2025-07-02 11:09:36,963 - INFO - Saved chunk 37 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000037
+2025-07-02 11:09:36,964 - INFO - Chunk progress: 38/41 (92.7%)
+2025-07-02 11:09:36,971 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:36] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:37,040 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryUmNabaA72BIWjv6N
+2025-07-02 11:09:37,141 - INFO - Processing chunk 39/41 for file: WindowsCustom.gz
+2025-07-02 11:09:37,220 - INFO - Saved chunk 38 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000038
+2025-07-02 11:09:37,220 - INFO - Chunk progress: 39/41 (95.1%)
+2025-07-02 11:09:37,228 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:37] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:37,263 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryGdIV0bbbTeGtABBE
+2025-07-02 11:09:37,359 - INFO - Processing chunk 40/41 for file: WindowsCustom.gz
+2025-07-02 11:09:37,417 - INFO - Saved chunk 39 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000039
+2025-07-02 11:09:37,418 - INFO - Chunk progress: 40/41 (97.6%)
+2025-07-02 11:09:37,425 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:37] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:09:37,433 - INFO - Chunked upload request - Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywT3FsAA0Bc8SV9UT
+2025-07-02 11:09:37,456 - INFO - Processing chunk 41/41 for file: WindowsCustom.gz
+2025-07-02 11:09:37,479 - INFO - Saved chunk 40 to storage\files\temp\d9b9f365-6063-4fe2-b8e3-62edbdb8302b\chunk_000040
+2025-07-02 11:09:37,479 - INFO - All chunks received, merging file: WindowsCustom.gz
+2025-07-02 11:09:57,644 - INFO - Chunked upload completed: WindowsCustom.gz (3.9GB)
+2025-07-02 11:09:57,646 - INFO - 192.168.88.254 - - [02/Jul/2025 11:09:57] "POST /upload/chunked HTTP/1.1" 200 -
+2025-07-02 11:14:21,030 - INFO - 192.168.88.254 - - [02/Jul/2025 11:14:21] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 11:19:21,019 - INFO - 192.168.88.254 - - [02/Jul/2025 11:19:21] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 11:24:21,002 - INFO - 192.168.88.254 - - [02/Jul/2025 11:24:21] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 11:29:20,998 - INFO - 192.168.88.254 - - [02/Jul/2025 11:29:20] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 11:34:20,986 - INFO - 192.168.88.254 - - [02/Jul/2025 11:34:20] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 11:39:20,994 - INFO - 192.168.88.254 - - [02/Jul/2025 11:39:20] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 11:44:20,990 - INFO - 192.168.88.254 - - [02/Jul/2025 11:44:20] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 11:49:20,980 - INFO - 192.168.88.254 - - [02/Jul/2025 11:49:20] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 11:54:20,981 - INFO - 192.168.88.254 - - [02/Jul/2025 11:54:20] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 11:59:20,976 - INFO - 192.168.88.254 - - [02/Jul/2025 11:59:20] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 12:04:20,974 - INFO - 192.168.88.254 - - [02/Jul/2025 12:04:20] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 12:06:04,156 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:04] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-07-02 12:06:04,164 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:04] "GET /admin/login HTTP/1.1" 200 -
+2025-07-02 12:06:04,827 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:04] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:06:08,270 - INFO - Admin login successful: admin
+2025-07-02 12:06:08,271 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:08] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-07-02 12:06:08,311 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:08] "GET /admin HTTP/1.1" 200 -
+2025-07-02 12:06:08,419 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:08] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:06:08,472 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:08] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:06:08,486 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:08] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:06:08,513 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:08] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:06:09,446 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:09] "GET /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 12:06:14,108 - ERROR - Error setting chunk_size_mb: table settings has no column named updated_at
+2025-07-02 12:06:14,110 - ERROR - Error setting max_concurrent_chunks: table settings has no column named updated_at
+2025-07-02 12:06:14,113 - ERROR - Error setting buffer_size_kb: table settings has no column named updated_at
+2025-07-02 12:06:14,113 - ERROR - Error setting connection_timeout: table settings has no column named updated_at
+2025-07-02 12:06:14,114 - ERROR - Error setting enable_chunked_upload: table settings has no column named updated_at
+2025-07-02 12:06:14,114 - ERROR - Error setting enable_compression: table settings has no column named updated_at
+2025-07-02 12:06:14,115 - ERROR - Error setting enable_caching: table settings has no column named updated_at
+2025-07-02 12:06:14,115 - INFO - Performance settings updated: 0 settings
+2025-07-02 12:06:14,115 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:14] "POST /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 12:06:16,151 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:16] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 12:06:16,474 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:16] "GET /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 12:06:22,105 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:22] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 12:06:27,408 - ERROR - Error setting chunk_size_mb: table settings has no column named updated_at
+2025-07-02 12:06:27,408 - ERROR - Error setting max_concurrent_chunks: table settings has no column named updated_at
+2025-07-02 12:06:27,408 - ERROR - Error setting buffer_size_kb: table settings has no column named updated_at
+2025-07-02 12:06:27,409 - ERROR - Error setting connection_timeout: table settings has no column named updated_at
+2025-07-02 12:06:27,410 - ERROR - Error setting enable_chunked_upload: table settings has no column named updated_at
+2025-07-02 12:06:27,410 - ERROR - Error setting enable_compression: table settings has no column named updated_at
+2025-07-02 12:06:27,411 - ERROR - Error setting enable_caching: table settings has no column named updated_at
+2025-07-02 12:06:27,411 - INFO - Performance settings updated: 0 settings
+2025-07-02 12:06:27,411 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:27] "POST /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 12:06:29,676 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:29] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 12:06:33,554 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:33] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 12:06:36,188 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:36] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:06:37,139 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:37] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 12:06:37,731 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:37] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:06:40,212 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:40] "GET /admin HTTP/1.1" 200 -
+2025-07-02 12:06:40,318 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:40] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:06:40,350 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:40] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:06:40,357 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:40] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:06:40,373 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:40] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:06:41,454 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:41] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:06:49,384 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:49] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:06:50,069 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:50] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:06:50,868 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:50] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:06:51,096 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:51] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:06:51,303 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:51] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:06:51,488 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:51] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:06:52,037 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:52] "GET /admin HTTP/1.1" 200 -
+2025-07-02 12:06:52,139 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:52] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:06:52,174 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:52] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:06:52,193 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:52] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:06:52,203 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:52] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:06:54,188 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:54] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:06:54,596 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:54] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 12:06:55,219 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:55] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:06:56,767 - INFO - 192.168.88.254 - - [02/Jul/2025 12:06:56] "GET /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 12:08:42,829 - INFO - Database initialized successfully
+2025-07-02 12:08:42,835 - INFO - Starting File Storage & Sharing Service...
+2025-07-02 12:08:42,836 - INFO - Storage folder: storage\files
+2025-07-02 12:08:42,836 - INFO - Banner upload folder: static\uploads\banners
+2025-07-02 12:08:42,836 - INFO - Temp folder: storage\files\temp
+2025-07-02 12:08:42,837 - INFO - Max file size: 25GB
+2025-07-02 12:08:42,849 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.88.254:5000
+2025-07-02 12:08:42,849 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-02 12:08:46,494 - INFO - 192.168.88.254 - - [02/Jul/2025 12:08:46] "GET / HTTP/1.1" 200 -
+2025-07-02 12:08:46,743 - INFO - 192.168.88.254 - - [02/Jul/2025 12:08:46] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 12:08:46,989 - INFO - 192.168.88.254 - - [02/Jul/2025 12:08:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:08:52,094 - INFO - 192.168.88.254 - - [02/Jul/2025 12:08:52] "GET /api/performance-config HTTP/1.1" 200 -
+2025-07-02 12:08:56,292 - INFO - 192.168.88.254 - - [02/Jul/2025 12:08:56] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-07-02 12:08:56,300 - INFO - 192.168.88.254 - - [02/Jul/2025 12:08:56] "GET /admin/login HTTP/1.1" 200 -
+2025-07-02 12:08:57,054 - INFO - 192.168.88.254 - - [02/Jul/2025 12:08:57] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:09:00,669 - INFO - Admin login successful: admin
+2025-07-02 12:09:00,669 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:00] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-07-02 12:09:00,686 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:00] "GET /admin HTTP/1.1" 200 -
+2025-07-02 12:09:00,831 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:00] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:09:00,876 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:00] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:09:00,888 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:00] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:09:00,915 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:09:01,809 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:01] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 12:09:04,468 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:04] "POST /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 12:09:04,482 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:04] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 12:09:04,496 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:04] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:09:04,508 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:04] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:09:05,226 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:05] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:09:25,969 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:25] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 12:09:26,418 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:26] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:09:26,807 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:26] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 12:09:28,833 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:28] "GET /admin/api/performance HTTP/1.1" 200 -
