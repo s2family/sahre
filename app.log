@@ -721,3 +721,180 @@
 2025-07-02 12:09:26,418 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:26] "GET /admin/api/banners HTTP/1.1" 200 -
 2025-07-02 12:09:26,807 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:26] "GET /admin/api/settings HTTP/1.1" 200 -
 2025-07-02 12:09:28,833 - INFO - 192.168.88.254 - - [02/Jul/2025 12:09:28] "GET /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 12:24:48,776 - INFO - Database initialized successfully
+2025-07-02 12:24:48,783 - INFO - Starting File Storage & Sharing Service...
+2025-07-02 12:24:48,783 - INFO - Storage folder: storage\files
+2025-07-02 12:24:48,783 - INFO - Banner upload folder: static\uploads\banners
+2025-07-02 12:24:48,783 - INFO - Temp folder: storage\files\temp
+2025-07-02 12:24:48,784 - INFO - Max file size: 25GB
+2025-07-02 12:24:48,794 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.88.254:5000
+2025-07-02 12:24:48,794 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-02 12:24:52,029 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:52] "[32mGET /admin/api/performance HTTP/1.1[0m" 302 -
+2025-07-02 12:24:52,038 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:52] "GET /admin/login HTTP/1.1" 200 -
+2025-07-02 12:24:53,423 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-07-02 12:24:53,430 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:53] "GET /admin/login HTTP/1.1" 200 -
+2025-07-02 12:24:53,727 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:24:54,223 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:54] "GET /admin/login HTTP/1.1" 200 -
+2025-07-02 12:24:54,357 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:54] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:24:57,154 - INFO - Admin login successful: admin
+2025-07-02 12:24:57,155 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:57] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-07-02 12:24:57,168 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:57] "GET /admin HTTP/1.1" 200 -
+2025-07-02 12:24:57,276 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:57] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:24:57,304 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:57] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:24:57,316 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:57] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:24:57,341 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:57] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:24:57,976 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:57] "GET /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 12:24:58,305 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:58] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 12:24:58,575 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:58] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:24:59,194 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:59] "GET /admin HTTP/1.1" 200 -
+2025-07-02 12:24:59,283 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:59] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:24:59,313 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:59] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:24:59,321 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:59] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:24:59,338 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:59] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:24:59,790 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:59] "GET /admin HTTP/1.1" 200 -
+2025-07-02 12:24:59,889 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:59] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:24:59,918 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:59] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:24:59,924 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:59] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:24:59,938 - INFO - 192.168.88.254 - - [02/Jul/2025 12:24:59] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:25:00,126 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:00] "GET /admin HTTP/1.1" 200 -
+2025-07-02 12:25:00,224 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:00] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:25:00,253 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:00] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:25:00,259 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:25:00,274 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:00] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:25:00,324 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:00] "GET /admin HTTP/1.1" 200 -
+2025-07-02 12:25:00,423 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:00] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:25:00,452 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:00] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:25:00,458 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:25:00,471 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:00] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:25:00,699 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:00] "GET /admin HTTP/1.1" 200 -
+2025-07-02 12:25:00,797 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:00] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:25:00,827 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:00] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:25:00,832 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:25:00,847 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:00] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:25:00,885 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:00] "GET /admin HTTP/1.1" 200 -
+2025-07-02 12:25:00,983 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:00] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:25:01,012 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:01] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:25:01,018 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:25:01,033 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:01] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:25:01,046 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:01] "GET /admin HTTP/1.1" 200 -
+2025-07-02 12:25:01,149 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:01] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:25:01,180 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:01] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:25:01,183 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:25:01,200 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:01] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:25:02,987 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:02] "GET /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 12:25:04,846 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:04] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 12:25:05,492 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:05] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:25:05,996 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:05] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 12:25:07,563 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:07] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:25:11,467 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:11] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 12:25:12,180 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:12] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:25:13,421 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:13] "GET /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 12:25:13,703 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:13] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:25:13,716 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:13] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:25:31,156 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:31] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:25:31,164 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:31] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:25:43,831 - INFO - Database initialized successfully
+2025-07-02 12:25:43,838 - INFO - Starting File Storage & Sharing Service...
+2025-07-02 12:25:43,838 - INFO - Storage folder: storage\files
+2025-07-02 12:25:43,839 - INFO - Banner upload folder: static\uploads\banners
+2025-07-02 12:25:43,839 - INFO - Temp folder: storage\files\temp
+2025-07-02 12:25:43,839 - INFO - Max file size: 25GB
+2025-07-02 12:25:43,849 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.88.254:5000
+2025-07-02 12:25:43,849 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-02 12:25:44,447 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:44] "[32mGET /admin/api/stats HTTP/1.1[0m" 302 -
+2025-07-02 12:25:44,456 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:44] "GET /admin/login HTTP/1.1" 200 -
+2025-07-02 12:25:44,463 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:44] "[32mGET /admin/api/files HTTP/1.1[0m" 302 -
+2025-07-02 12:25:44,470 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:44] "GET /admin/login HTTP/1.1" 200 -
+2025-07-02 12:25:48,504 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:48] "[32mGET /admin/api/stats HTTP/1.1[0m" 302 -
+2025-07-02 12:25:48,512 - INFO - 192.168.88.254 - - [02/Jul/2025 12:25:48] "GET /admin/login HTTP/1.1" 200 -
+2025-07-02 12:26:31,803 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:31] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-07-02 12:26:31,810 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:31] "GET /admin/login HTTP/1.1" 200 -
+2025-07-02 12:26:31,965 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:26:35,314 - INFO - Admin login successful: admin
+2025-07-02 12:26:35,315 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:35] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-07-02 12:26:35,350 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:35] "GET /admin HTTP/1.1" 200 -
+2025-07-02 12:26:35,625 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:35] "[33mGET /admin/api/visitors HTTP/1.1[0m" 404 -
+2025-07-02 12:26:35,631 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:35] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 12:26:35,649 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:35] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:26:35,661 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:35] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:26:35,665 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:35] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:26:35,680 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:35] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 12:26:35,772 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:26:36,576 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:36] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:26:37,123 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:37] "[33mGET /admin/api/visitors HTTP/1.1[0m" 404 -
+2025-07-02 12:26:37,589 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:37] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 12:26:38,696 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:38] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:26:39,756 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:39] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:26:49,232 - INFO - Banner image uploaded: 20250702_122649_icocn_ad0635ee.png (110.7KB)
+2025-07-02 12:26:49,233 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:49] "POST /admin/upload HTTP/1.1" 200 -
+2025-07-02 12:26:49,247 - ERROR - Banner API error: table banners has no column named updated_at
+2025-07-02 12:26:49,247 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:49] "POST /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:26:50,367 - INFO - Banner image uploaded: 20250702_122650_icocn_c4723aa7.png (110.7KB)
+2025-07-02 12:26:50,368 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:50] "POST /admin/upload HTTP/1.1" 200 -
+2025-07-02 12:26:50,377 - ERROR - Banner API error: table banners has no column named updated_at
+2025-07-02 12:26:50,378 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:50] "POST /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:26:50,662 - INFO - Banner image uploaded: 20250702_122650_icocn_6925337c.png (110.7KB)
+2025-07-02 12:26:50,663 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:50] "POST /admin/upload HTTP/1.1" 200 -
+2025-07-02 12:26:50,670 - ERROR - Banner API error: table banners has no column named updated_at
+2025-07-02 12:26:50,670 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:50] "POST /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:26:50,870 - INFO - Banner image uploaded: 20250702_122650_icocn_cc085d12.png (110.7KB)
+2025-07-02 12:26:50,870 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:50] "POST /admin/upload HTTP/1.1" 200 -
+2025-07-02 12:26:50,885 - ERROR - Banner API error: table banners has no column named updated_at
+2025-07-02 12:26:50,885 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:50] "POST /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:26:51,468 - INFO - Banner image uploaded: 20250702_122651_icocn_675d6713.png (110.7KB)
+2025-07-02 12:26:51,468 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:51] "POST /admin/upload HTTP/1.1" 200 -
+2025-07-02 12:26:51,476 - ERROR - Banner API error: table banners has no column named updated_at
+2025-07-02 12:26:51,477 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:51] "POST /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:26:55,535 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:55] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 12:26:56,108 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:56] "[33mGET /admin/api/visitors HTTP/1.1[0m" 404 -
+2025-07-02 12:26:56,907 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:56] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:26:59,147 - INFO - 192.168.88.254 - - [02/Jul/2025 12:26:59] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 12:27:04,035 - ERROR - Error setting chunk_size_mb: table settings has no column named updated_at
+2025-07-02 12:27:04,036 - ERROR - Error setting max_concurrent_chunks: table settings has no column named updated_at
+2025-07-02 12:27:04,036 - ERROR - Error setting buffer_size_kb: table settings has no column named updated_at
+2025-07-02 12:27:04,037 - INFO - Performance settings updated: 0 settings
+2025-07-02 12:27:04,037 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:04] "POST /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 12:27:05,509 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:05] "GET /admin HTTP/1.1" 200 -
+2025-07-02 12:27:05,614 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:05] "[33mGET /admin/api/visitors HTTP/1.1[0m" 404 -
+2025-07-02 12:27:05,619 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:05] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:27:05,635 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:05] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 12:27:05,649 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:05] "GET /admin/api/banners HTTP/1.1" 200 -
+2025-07-02 12:27:05,663 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:05] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:27:05,679 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:05] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:27:05,692 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:05] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 12:27:07,717 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:07] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 12:27:15,336 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:15] "[33mGET /admin/api/visitors HTTP/1.1[0m" 404 -
+2025-07-02 12:27:15,835 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:15] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:27:17,271 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:17] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:27:19,036 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:19] "[33mGET /admin/api/visitors HTTP/1.1[0m" 404 -
+2025-07-02 12:27:19,589 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:19] "GET /admin/api/cache HTTP/1.1" 200 -
+2025-07-02 12:27:21,065 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:21] "GET /admin/api/settings HTTP/1.1" 200 -
+2025-07-02 12:27:31,888 - INFO - Database initialized successfully
+2025-07-02 12:27:31,895 - INFO - Starting File Storage & Sharing Service...
+2025-07-02 12:27:31,895 - INFO - Storage folder: storage\files
+2025-07-02 12:27:31,895 - INFO - Banner upload folder: static\uploads\banners
+2025-07-02 12:27:31,896 - INFO - Temp folder: storage\files\temp
+2025-07-02 12:27:31,896 - INFO - Max file size: 25GB
+2025-07-02 12:27:31,907 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.88.254:5000
+2025-07-02 12:27:31,908 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-02 12:27:32,557 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:32] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-07-02 12:27:32,566 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:32] "GET /admin/login HTTP/1.1" 200 -
+2025-07-02 12:27:32,702 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:27:35,646 - INFO - Admin login successful: admin
+2025-07-02 12:27:35,647 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:35] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-07-02 12:27:35,688 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:35] "GET /admin HTTP/1.1" 200 -
+2025-07-02 12:27:35,791 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:35] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:27:35,822 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:35] "GET /admin/api/stats HTTP/1.1" 200 -
+2025-07-02 12:27:35,840 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:35] "GET /admin/api/files HTTP/1.1" 200 -
+2025-07-02 12:27:35,850 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-07-02 12:27:36,669 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:36] "GET /admin/api/performance HTTP/1.1" 200 -
+2025-07-02 12:27:39,591 - INFO - 192.168.88.254 - - [02/Jul/2025 12:27:39] "GET /api/performance-config HTTP/1.1" 200 -
