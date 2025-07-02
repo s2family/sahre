@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🗂️ File Storage & Sharing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        .header {
+            background-color: #2c2c2c;
+            padding: 15px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-home {
+            color: #ccc;
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: color 0.2s ease;
+        }
+
+        .nav-home:hover {
+            color: white;
+        }
+
+        /* Main Layout with Banners */
+        .main-layout {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 200px 1fr 200px;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            width: 100%;
+            align-items: start;
+        }
+
+        /* Sidebar Banners */
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding-top: 20px;
+        }
+
+        .banner-item {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 1px solid #e9ecef;
+        }
+
+        .banner-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
+
+        .banner-image {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+        }
+
+        .banner-placeholder {
+            width: 100%;
+            height: 120px;
+            background: #f8f9fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #adb5bd;
+            font-size: 2rem;
+        }
+
+        .banner-content {
+            padding: 12px;
+        }
+
+        .banner-title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 6px;
+            line-height: 1.3;
+        }
+
+        .banner-description {
+            font-size: 0.75rem;
+            color: #666;
+            line-height: 1.4;
+            margin-bottom: 8px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .banner-cta {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #495057;
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .banner-cta:hover {
+            background: #343a40;
+            transform: translateY(-1px);
+        }
+
+        .banner-empty {
+            background: white;
+            border: 2px dashed #dee2e6;
+            border-radius: 8px;
+            padding: 20px 10px;
+            text-align: center;
+            color: #adb5bd;
+            font-style: italic;
+            font-size: 0.8rem;
+        }
+
+        /* Main Content */
+        .main-content {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding-top: 20px;
+        }
+
+        .content-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            padding: 40px;
+            max-width: 700px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .main-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .main-description {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        /* Stats */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9ff;
+            border-radius: 10px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #495057;
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        /* Upload Form */
+        .upload-section {
+            margin-bottom: 30px;
+        }
+
+        .upload-area {
+            border: 3px dashed #667eea;
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            margin: 20px 0;
+            background: #f8f9ff;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .upload-area:hover, .upload-area.dragover {
+            border-color: #764ba2;
+            background: #f0f4ff;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+            text-align: left;
+        }
+
+        .form-group {
+            margin: 15px 0;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 6px;
+            font-size: 0.9rem;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .btn {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* Success Result */
+        .upload-result {
+            display: none;
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .share-link {
+            background: #e9ecef;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: monospace;
+            word-break: break-all;
+            margin: 15px 0;
+            font-size: 0.9rem;
+        }
+
+        .qr-code {
+            margin: 20px 0;
+        }
+
+        .qr-code img {
+            max-width: 200px;
+            border-radius: 10px;
+            border: 1px solid #dee2e6;
+        }
+
+        /* Recent Files */
+        .recent-files {
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .files-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .file-item {
+            background: white;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 15px;
+            transition: all 0.2s ease;
+        }
+
+        .file-item:hover {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transform: translateY(-1px);
+        }
+
+        .file-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .file-icon {
+            font-size: 1.5rem;
+        }
+
+        .file-name {
+            font-weight: 600;
+            color: #333;
+            font-size: 0.9rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            flex: 1;
+        }
+
+        .file-meta {
+            font-size: 0.8rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .file-actions {
+            display: flex;
+            gap: 8px;
+        }
+
+        .btn-sm {
+            padding: 6px 12px;
+            font-size: 0.8rem;
+            border-radius: 4px;
+        }
+
+        .btn-outline {
+            background: white;
+            border: 1px solid #667eea;
+            color: #667eea;
+        }
+
+        .btn-outline:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        /* Alert Messages */
+        .alert {
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-size: 0.9rem;
+        }
+
+        .alert-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .alert-error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .alert-info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+
+        /* Shared File View */
+        .shared-file-view {
+            background: white;
+            border: 1px solid #e9ecef;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .file-details {
+            margin: 20px 0;
+        }
+
+        .file-details h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .file-info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        .info-item {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 6px;
+        }
+
+        .info-label {
+            font-size: 0.8rem;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .info-value {
+            font-weight: 600;
+            color: #333;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #495057;
+            color: #adb5bd;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .main-layout {
+                grid-template-columns: 1fr;
+                padding: 15px;
+            }
+            
+            .sidebar {
+                order: 3;
+                flex-direction: row;
+                overflow-x: auto;
+                padding: 10px 0;
+                gap: 10px;
+            }
+            
+            .banner-item {
+                min-width: 200px;
+                flex-shrink: 0;
+            }
+            
+            .main-content {
+                order: 1;
+                padding-top: 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .content-card {
+                padding: 30px 20px;
+            }
+
+            .main-title {
+                font-size: 1.8rem;
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+
+            .files-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .file-info-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Loading Animation */
+        .spinner {
+            width: 20px;
+            height: 20px;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            margin-right: 8px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <a href="/" class="logo">
+                <span>🗂️</span>
+                File Storage & Sharing
+            </a>
+            <a href="/admin" class="nav-home">
+                🔐 Admin Panel
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Layout with Sidebars -->
+    <div class="main-layout">
+        <!-- Left Sidebar -->
+        <div class="sidebar">
+            {% if left_banners %}
+                {% for banner in left_banners %}
+                <div class="banner-item" onclick="trackBannerClick({{ banner.id }}, '{{ banner.link_url|safe }}')">
+                    {% if banner.image_path %}
+                        <img src="{{ banner.image_path }}" alt="{{ banner.title }}" class="banner-image">
+                    {% else %}
+                        <div class="banner-placeholder">📢</div>
+                    {% endif %}
+                    <div class="banner-content">
+                        <div class="banner-title">{{ banner.title }}</div>
+                        {% if banner.description %}
+                            <div class="banner-description">{{ banner.description }}</div>
+                        {% endif %}
+                        <a href="#" class="banner-cta" onclick="event.stopPropagation(); trackBannerClick({{ banner.id }}, '{{ banner.link_url|safe }}');">
+                            👀 Xem thêm
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+            {% else %}
+                <div class="banner-empty">
+                    Chưa có banner
+                </div>
+            {% endif %}
+        </div>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-card">
+                {% if error %}
+                <div class="alert alert-error">❌ {{ error }}</div>
+                {% endif %}
+
+                {% if shared_file and show_download %}
+                <!-- Shared File View -->
+                <div class="shared-file-view">
+                    <h2>📁 File được chia sẻ</h2>
+                    
+                    <div class="file-details">
+                        <h3>{{ shared_file.original_name }}</h3>
+                        
+                        <div class="file-info-grid">
+                            <div class="info-item">
+                                <div class="info-label">Loại file</div>
+                                <div class="info-value">
+                                    {% if shared_file.file_type == 'image' %}🖼️ Hình ảnh
+                                    {% elif shared_file.file_type == 'video' %}🎬 Video
+                                    {% elif shared_file.file_type == 'audio' %}🎵 Audio
+                                    {% elif shared_file.file_type == 'document' %}📄 Tài liệu
+                                    {% elif shared_file.file_type == 'archive' %}📦 Archive
+                                    {% else %}📁 Khác{% endif %}
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Kích thước</div>
+                                <div class="info-value">{{ shared_file.file_size }}</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-label">Lượt tải</div>
+                                <div class="info-value">{{ shared_file.download_count }}/{{ shared_file.download_limit }}</div>
+                            </div>
+                        </div>
+                        
+                        {% if shared_file.description %}
+                        <div style="margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 8px;">
+                            <strong>Mô tả:</strong> {{ shared_file.description }}
+                        </div>
+                        {% endif %}
+                    </div>
+                    
+                    <div style="margin: 25px 0;">
+                        {% if shared_file.has_password %}
+                        <div id="passwordSection">
+                            <div class="form-group" style="max-width: 300px; margin: 0 auto;">
+                                <label>🔒 Nhập mật khẩu để tải file:</label>
+                                <input type="password" id="filePassword" class="form-input" placeholder="Mật khẩu">
+                            </div>
+                            <button onclick="downloadWithPassword('{{ shared_file.share_code }}')" class="btn">
+                                📥 Tải xuống
+                            </button>
+                        </div>
+                        {% else %}
+                        <a href="/download/{{ shared_file.share_code }}" class="btn">📥 Tải xuống ngay</a>
+                        {% endif %}
+                    </div>
+                    
+                    <div style="margin-top: 20px;">
+                        <a href="/" class="btn btn-outline">🔄 Tải file khác</a>
+                    </div>
+                </div>
+                {% else %}
+                <!-- Upload Interface -->
+                <h1 class="main-title">
+                    🗂️ File Storage & Sharing
+                </h1>
+                <p class="main-description">
+                    Tải lên và chia sẻ file dễ dàng, an toàn với link QR code!
+                </p>
+
+                <!-- Statistics -->
+                {% if stats %}
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value">{{ stats.total_files }}</div>
+                        <div class="stat-label">📁 Tổng file</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">{{ "%.1f MB"|format(stats.total_size/1024/1024) }}</div>
+                        <div class="stat-label">💾 Dung lượng</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">{{ stats.total_downloads }}</div>
+                        <div class="stat-label">📥 Lượt tải</div>
+                    </div>
+                </div>
+                {% endif %}
+
+                <div id="alertContainer"></div>
+
+                <!-- Upload Form -->
+                <div id="uploadSection" class="upload-section">
+                    <form id="uploadForm" enctype="multipart/form-data">
+                        <div class="upload-area" id="uploadArea">
+                            <h3>📁 Kéo thả file vào đây hoặc click để chọn</h3>
+                            <input type="file" id="fileInput" style="display: none;">
+                            <p style="margin-top: 10px; color: #666;">Hỗ trợ mọi loại file, tối đa 1GB</p>
+                        </div>
+
+                        <div class="form-grid">
+                            <div>
+                                <div class="form-group">
+                                    <label>📝 Mô tả file (tùy chọn)</label>
+                                    <textarea name="description" class="form-input" rows="3" placeholder="Mô tả về file..."></textarea>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label>🔒 Mật khẩu bảo vệ (tùy chọn)</label>
+                                    <input type="password" name="password" class="form-input" placeholder="Để trống nếu không cần">
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <div class="form-group">
+                                    <label>⏰ Thời hạn lưu trữ</label>
+                                    <select name="expire_days" class="form-input">
+                                        <option value="1">1 ngày</option>
+                                        <option value="7">1 tuần</option>
+                                        <option value="30" selected>1 tháng</option>
+                                        <option value="90">3 tháng</option>
+                                        <option value="365">1 năm</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label>
+                                        <input type="checkbox" name="is_public" checked style="margin-right: 8px;"> 
+                                        🌐 Hiển thị công khai
+                                    </label>
+                                    <small style="display: block; color: #666; margin-top: 5px;">
+                                        File sẽ xuất hiện trong danh sách file gần đây
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="text-align: center;">
+                            <button type="submit" id="uploadBtn" class="btn">
+                                <span id="uploadText">🚀 Tải lên và tạo link</span>
+                                <span id="uploadLoading" class="hidden">
+                                    <span class="spinner"></span>Đang tải lên...
+                                </span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Upload Result -->
+                <div id="uploadResult" class="upload-result">
+                    <h3>✅ Tải lên thành công!</h3>
+                    <p><strong>Link chia sẻ của bạn:</strong></p>
+                    <div id="shareLink" class="share-link"></div>
+                    
+                    <div class="qr-code">
+                        <p><strong>📱 QR Code để chia sẻ:</strong></p>
+                        <img id="qrCode" src="" alt="QR Code">
+                    </div>
+                    
+                    <div style="margin-top: 20px;">
+                        <button onclick="copyShareLink()" class="btn btn-outline btn-sm" style="margin-right: 10px;">
+                            📋 Copy Link
+                        </button>
+                        <button onclick="resetUploadForm()" class="btn btn-sm">
+                            🔄 Tải file khác
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Recent Files -->
+                {% if recent_files %}
+                <div class="recent-files">
+                    <h3>📋 File gần đây</h3>
+                    <div class="files-grid">
+                        {% for file in recent_files %}
+                        <div class="file-item">
+                            <div class="file-header">
+                                <div class="file-icon">
+                                    {% if file.type == 'image' %}🖼️
+                                    {% elif file.type == 'video' %}🎬
+                                    {% elif file.type == 'audio' %}🎵
+                                    {% elif file.type == 'document' %}📄
+                                    {% elif file.type == 'archive' %}📦
+                                    {% else %}📁{% endif %}
+                                </div>
+                                <div class="file-name" title="{{ file.name }}">{{ file.name }}</div>
+                            </div>
+                            <div class="file-meta">
+                                {{ file.size }} • {{ file.downloads }} lượt tải • {{ file.uploaded_at[:10] }}
+                            </div>
+                            <div class="file-actions">
+                                <a href="/f/{{ file.share_code }}" class="btn btn-outline btn-sm">👀 Xem</a>
+                                <a href="/download/{{ file.share_code }}" class="btn btn-sm">📥 Tải</a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+                {% endif %}
+            </div>
+        </main>
+
+        <!-- Right Sidebar -->
+        <div class="sidebar">
+            {% if right_banners %}
+                {% for banner in right_banners %}
+                <div class="banner-item" onclick="trackBannerClick({{ banner.id }}, '{{ banner.link_url|safe }}')">
+                    {% if banner.image_path %}
+                        <img src="{{ banner.image_path }}" alt="{{ banner.title }}" class="banner-image">
+                    {% else %}
+                        <div class="banner-placeholder">📢</div>
+                    {% endif %}
+                    <div class="banner-content">
+                        <div class="banner-title">{{ banner.title }}</div>
+                        {% if banner.description %}
+                            <div class="banner-description">{{ banner.description }}</div>
+                        {% endif %}
+                        <a href="#" class="banner-cta" onclick="event.stopPropagation(); trackBannerClick({{ banner.id }}, '{{ banner.link_url|safe }}');">
+                            👀 Xem thêm
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+            {% else %}
+                <div class="banner-empty">
+                    Chưa có banner
+                </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 File Storage & Sharing. All rights reserved.</p>
+    </footer>
+
+    <script>
+        let uploadedShareCode = '';
+        let uploadedShareUrl = '';
+
+        // Banner click tracking
+        async function trackBannerClick(bannerId, linkUrl) {
+            try {
+                fetch(`/banner/click/${bannerId}`, { method: 'GET' });
+                if (linkUrl) {
+                    window.open(linkUrl, '_blank');
+                }
+            } catch (error) {
+                console.error('Error tracking banner click:', error);
+                if (linkUrl) {
+                    window.open(linkUrl, '_blank');
+                }
+            }
+        }
+
+        // Show alert message
+        function showAlert(message, type = 'info') {
+            const alertContainer = document.getElementById('alertContainer');
+            const alertDiv = document.createElement('div');
+            alertDiv.className = `alert alert-${type}`;
+            alertDiv.textContent = message;
+            
+            alertContainer.innerHTML = '';
+            alertContainer.appendChild(alertDiv);
+            
+            setTimeout(() => {
+                alertDiv.remove();
+            }, 5000);
+        }
+
+        // Setup drag and drop
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.querySelector('input[type="file"]');
+
+        uploadArea.addEventListener('click', () => fileInput.click());
+
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                fileInput.files = files;
+                updateFileDisplay(files[0]);
+            }
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            if (e.target.files.length > 0) {
+                updateFileDisplay(e.target.files[0]);
+            }
+        });
+
+        function updateFileDisplay(file) {
+            const uploadArea = document.getElementById('uploadArea');
+            uploadArea.innerHTML = `
+                <h3>📁 File đã chọn</h3>
+                <p><strong>${file.name}</strong></p>
+                <p>Kích thước: ${formatFileSize(file.size)}</p>
+                <p style="margin-top: 10px; color: #666;">Click để chọn file khác</p>
+            `;
+        }
+
+        function formatFileSize(bytes) {
+            if (bytes === 0) return '0 B';
+            const k = 1024;
+            const sizes = ['B', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(1)) + ' ' + sizes[i];
+        }
+
+        // Upload form submission
+        document.getElementById('uploadForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const fileInput = document.querySelector('input[type="file"]');
+            if (!fileInput.files.length) {
+                showAlert('Vui lòng chọn file để tải lên!', 'error');
+                return;
+            }
+
+            const uploadBtn = document.getElementById('uploadBtn');
+            const uploadText = document.getElementById('uploadText');
+            const uploadLoading = document.getElementById('uploadLoading');
+            
+            // Show loading
+            uploadText.classList.add('hidden');
+            uploadLoading.classList.remove('hidden');
+            uploadBtn.disabled = true;
+
+            try {
+                const formData = new FormData(this);
+                formData.append('file', fileInput.files[0]);
+                formData.append('is_public', document.querySelector('input[name="is_public"]').checked);
+
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    uploadedShareCode = data.share_code;
+                    uploadedShareUrl = data.share_url;
+                    
+                    document.getElementById('shareLink').textContent = data.share_url;
+                    
+                    if (data.qr_code) {
+                        document.getElementById('qrCode').src = `data:image/png;base64,${data.qr_code}`;
+                    }
+                    
+                    document.getElementById('uploadSection').style.display = 'none';
+                    document.getElementById('uploadResult').style.display = 'block';
+                    
+                    showAlert('✅ Tải lên thành công!', 'success');
+                } else {
+                    throw new Error(data.error);
+                }
+
+            } catch (error) {
+                showAlert('❌ Lỗi: ' + error.message, 'error');
+            } finally {
+                // Hide loading
+                uploadText.classList.remove('hidden');
+                uploadLoading.classList.add('hidden');
+                uploadBtn.disabled = false;
+            }
+        });
+
+        // Copy share link
+        function copyShareLink() {
+            if (uploadedShareUrl) {
+                navigator.clipboard.writeText(uploadedShareUrl).then(() => {
+                    showAlert('📋 Đã copy link chia sẻ!', 'success');
+                }).catch(() => {
+                    // Fallback for older browsers
+                    const textArea = document.createElement('textarea');
+                    textArea.value = uploadedShareUrl;
+                    document.body.appendChild(textArea);
+                    textArea.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(textArea);
+                    showAlert('📋 Đã copy link chia sẻ!', 'success');
+                });
+            }
+        }
+
+        // Reset upload form
+        function resetUploadForm() {
+            document.getElementById('uploadForm').reset();
+            document.getElementById('uploadSection').style.display = 'block';
+            document.getElementById('uploadResult').style.display = 'none';
+            
+            const uploadArea = document.getElementById('uploadArea');
+            uploadArea.innerHTML = `
+                <h3>📁 Kéo thả file vào đây hoặc click để chọn</h3>
+                <p style="margin-top: 10px; color: #666;">Hỗ trợ mọi loại file, tối đa 1GB</p>
+            `;
+            
+            uploadedShareCode = '';
+            uploadedShareUrl = '';
+        }
+
+        // Download with password
+        async function downloadWithPassword(shareCode) {
+            const password = document.getElementById('filePassword').value;
+            
+            if (!password) {
+                showAlert('Vui lòng nhập mật khẩu!', 'error');
+                return;
+            }
+
+            try {
+                const response = await fetch(`/download/${shareCode}?password=${encodeURIComponent(password)}`);
+                
+                if (response.ok) {
+                    // Create download link
+                    const blob = await response.blob();
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = response.headers.get('Content-Disposition')?.split('filename=')[1] || 'download';
+                    document.body.appendChild(a);
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                    document.body.removeChild(a);
+                    
+                    showAlert('✅ Tải file thành công!', 'success');
+                } else {
+                    const error = await response.json();
+                    showAlert('❌ ' + error.error, 'error');
+                }
+            } catch (error) {
+                showAlert('❌ Lỗi khi tải file: ' + error.message, 'error');
+            }
+        }
+    </script>
+</body>
+</html>
